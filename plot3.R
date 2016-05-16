@@ -3,7 +3,7 @@
 
 
 ## read data from file all_data.txt
-##  all_data.txt contains the extracted data of exdata_data_household_poer_consumption.zip
+##  all_data.txt contains the extracted data of exdata_data_household_power_consumption.zip
 alldata <- read.table("all_data.txt", header=TRUE, sep=';')
 
 ## Concatenate Date and Time into new variable DateTimeString
